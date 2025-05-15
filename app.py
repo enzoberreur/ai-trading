@@ -7,8 +7,8 @@ import plotly.express as px
 from datetime import datetime, timedelta
 import os
 
-from backend.backtester import Backtester
-from backend.strategies import (
+from ai_backend.backtester import Backtester
+from ai_backend.strategies import (
     MovingAverageCrossover,
     RSIStrategy,
     MACDStrategy,
@@ -18,7 +18,7 @@ from backend.strategies import (
     create_rsi_macd_strategy,
     create_bollinger_rsi_strategy
 )
-from backend.optimizer import (
+from ai_backend.optimizer import (
     optimize_moving_average_crossover,
     optimize_rsi_strategy,
     optimize_macd_strategy,

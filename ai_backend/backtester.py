@@ -2,8 +2,8 @@ import pandas as pd
 import numpy as np
 from datetime import datetime
 from typing import List, Dict, Any
-from models import Order, OrderSide, OrderType, Position, PositionSide, Trade
-from metrics import calculate_basic_metrics, calculate_advanced_metrics, calculate_trade_statistics, calculate_monthly_returns
+from ai_backend.models import Order, OrderSide, OrderType, Position, PositionSide, Trade
+from ai_backend.metrics import calculate_basic_metrics, calculate_advanced_metrics, calculate_trade_statistics, calculate_monthly_returns
 
 class Backtester:
     """Classe principale pour le backtesting des stratégies"""

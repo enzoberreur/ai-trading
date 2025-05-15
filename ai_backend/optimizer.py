@@ -4,8 +4,8 @@ import itertools
 from tqdm import tqdm
 from typing import Dict, List, Tuple, Any, Callable
 import streamlit as st
-from backtester import Backtester
-from strategies import (
+from ai_backend.backtester import Backtester
+from ai_backend.strategies import (
     MovingAverageCrossover,
     RSIStrategy,
     MACDStrategy,
